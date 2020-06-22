@@ -9,4 +9,4 @@ deploy:
   keep_history: true
   on:
     branch: developer
-    repo: ShopApp/ShopApp-Web
+podfile: ShopApp-Web
