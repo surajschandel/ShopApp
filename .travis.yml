@@ -2,6 +2,9 @@ language: java
 sudo: false
 script: mvn clean verify
 
+-CD:ShopApp-Web
+script: mvn clean install
+
 deploy:
   provider: pages
   skip_cleanup: true
@@ -9,4 +12,3 @@ deploy:
   keep_history: true
   on:
     branch: developer
-local_dir: ShopApp-Web
