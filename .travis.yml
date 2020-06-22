@@ -1,9 +1,7 @@
 language: java
 sudo: false
 script: mvn clean verify
-
--CD:ShopApp-Web
-script: mvn clean install
+dist: ShopApp/target
 
 deploy:
   provider: pages
