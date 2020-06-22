@@ -8,4 +8,5 @@ deploy:
   github_token: $ShopApp  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branch: developer/ShopApp/ShopApp-Web
+    branch: developer
+    repo: ShopApp/ShopApp-Web
