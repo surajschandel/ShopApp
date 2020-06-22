@@ -1,6 +1,7 @@
 language: java
 sudo: false
 script: mvn clean verify
+dist: ShopApp/target
 
 deploy:
   provider: pages
@@ -9,4 +10,3 @@ deploy:
   keep_history: true
   on:
     branch: developer
-local_dir: ShopApp-Web
